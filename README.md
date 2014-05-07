@@ -1,4 +1,21 @@
-vim-tutorial
-============
+Refinery29's Getting Started with VIM
+============================
 
-Getting know vim
+*Made for a tech talk on 05/08/2014*
+
+This is a tutorial that barely covers the surface of the true power of
+vim. It was made as a way to assist the workshop, but also as a "do it
+yourself" tutorial that the attendees, or anyone for that matter, could
+take home and play with.
+
+Disclaimer
+----------
+This isn't meant to be the ultimate guide of vim, replace vimtutor (by
+the way, try vimtutor), or turn anyone into a vim guru. This tutorial
+has two goals:
+
+- give complete noobs a decent level of comfort in about an hour;
+- serve as future quick reference for the most used features.
+
+Use vim!
+--------
