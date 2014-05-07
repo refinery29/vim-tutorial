@@ -24,5 +24,7 @@ System Preferences -> Keyboard -> Modifier Keys... -> Set the caps lock to be a 
 
 Use vim!
 --------
-Run this line in terminal
-`cd ~/Documents && git clone https://github.com/refinery29/vim-tutorial.git && cd vim-tutorial`
+To begin, run this command to get set up:
+```sh
+$ curl -k https://raw.githubusercontent.com/refinery29/vim-tutorial/master/install.sh | sh
+```

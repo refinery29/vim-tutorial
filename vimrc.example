@@ -1,0 +1,26 @@
+"enable line numbers
+set number
+
+"enable syntax highlighting
+syntax on
+
+"ensure 2 spaces for indentation
+set shiftwidth=2
+set tabstop=2
+set expandtab
+
+"use smartindent for preserving indentations on line breaks, a la IDE
+set smartindent
+
+"break at 80 columns
+set ruler
+set tw=79
+set formatoptions=l,t,c
+set lbr
+
+"highlight trailing whitespace on each line
+highlight ExtraWhiteSpace ctermbg=red guibg=red
+match ExtraWhiteSpace /\s\+$/
+
+"enable javascript syntax highlighting for JSON files
+autocmd Filetype json set syntax=javascript
