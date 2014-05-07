@@ -14,8 +14,15 @@ This isn't meant to be the ultimate guide of vim, replace vimtutor (by
 the way, try vimtutor), or turn anyone into a vim guru. This tutorial
 has two goals:
 
-- give complete noobs a decent level of comfort in about an hour;
+- give those who haven't seen it  a decent level of comfort in about an hour;
 - serve as future quick reference for the most used features.
+
+Setup
+-----
+The most annoying thing in vim is typing with CAPS LOCK on. Let's make caps lock a useful modifer key.
+System Preferences -> Keyboard -> Modifier Keys... -> Set the caps lock to be a CTRL key, these are super useful in vim
 
 Use vim!
 --------
+Run this line in terminal
+`cd ~/Documents && git clone https://github.com/refinery29/vim-tutorial.git && cd vim-tutorial`
