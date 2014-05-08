@@ -1,0 +1,40 @@
+Yes! Vim has a command line. Think of bash (terminal) in the editor.
+
+For all these buffered commands we've been using there is
+another way in vim to invoke it.
+
+To get to the command line,
+go to Normal mode with `<Esc>`, then press `:`.
+
+The cursor will move to the bottom of the screen, and the last line
+will start with a ":". You may then write the command, and finally
+enter it with the `<Enter>` key.
+
+Try the following commands (remember to press `<Esc>` for *Normal*).
+
+- `<Esc>:set number<Enter>`
+- `<Esc>:set nonumber<Enter>`
+
+The first command tells vim to show line numbers. This command can be
+used in the .vimrc (without the leading `:`) to the same effect.
+
+The second command reverts the previous change.
+
+vim has autocomplete! just use the <tab> key
+
+Speaking of tabs...
+vim has tabs, let's edit our vimrc file in a new tab
+
+- `<Esc>:tabe<tab> ../vimrc<tab>`
+
+To close this file let's use the command line
+
+- `<Esc>:q` Read as "Quit please"
+
+If it complains about the file being modified
+
+- `<Esc>:q!` Read as "Quit dammit"
+
+If you want to save your file and quit
+
+- `<Esc>:wq` Read as "Write and Quit"

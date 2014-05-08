@@ -1,11 +1,11 @@
 Before you type anything, get the cursor to line 7 with just TWO commands.
 
-If you go over the number of commands for each challenge 
+If you go over the number of commands for each challenge
 just use `^` to get back to the start.
 
 Challenge 1:
-  - Line up your cursor to the beginning of the next line and delete the last
-  character using only TWO commands.
+  - Line up your cursor to the beginning of the numbered line
+  - delete the last character using only TWO commands.
 
 1. Susana is an API writing machinee
 2. Greg is making an instrument that is played via github commitss

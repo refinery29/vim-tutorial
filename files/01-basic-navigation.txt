@@ -1,29 +1,32 @@
 Welcome to the first file in the vim tutorial!
 
-Try executing all of the following commands as you see them. If you ever get confused or hit another key by mistake, just hit the "esc" key!
+Try executing all of the following commands as you see them.
+If you ever get confused or hit another key by mistake, just hit the <esc> key!
 
-- Move down (to this line, for example) using the "j" key
+** To move the cursor, press the h,j,k,l keys as indicated. **
+       ^
+       k              Hint:  The h key is at the left and moves left.
+ < h       l >               The l key is at the right and moves right.
+       j                     The j key looks like a down arrow.
+       v
 
-- Move back up using the "k" key
+- Jump to the top using `gg`
 
-- Move right and left by using the "h" and "l" keys, respectively
+- Jump to the bottom using `G`
 
-- Jump to the top using "gg"
+- Jump to the end of a line using `$`
 
-- Jump to the bottom using "G"
+- Jump to the beginning of a line using `^`
 
-- Jump to the end of a line using "$"
+Text Objects
+- Move forward from word to word using the `w` key
 
-- Jump to the beginning of a line using "^"
+- Move backward from word to word using the `b` key
 
-- Move forward from word to word using the "w" key
+- Move forward from end-of-word to end-of-word using the `e` key
 
-- Move backward from word to word using the "b" key
+- Now-try-and-move-between-words-using-`b`-and-then-`B` and-see-what-the-difference-is
 
-- Move forward from end-of-word to end-of-word using the "e" key
+- Do-the-same-thing-using-`w`-and-`W` as-well-as-`e`-and-`E` and-note-the-difference
 
-- Now-try-and-move-between-words-using-"b"-and-then-"B" and-see-what-the-difference-is
-
-- Do-the-same-thing-using-"w"-and-"W" as-well-as-"e"-and-"E" and-note-the-difference
-
-- Exit out of this file by typing "ZZ"
+- Exit out of this file by typing `ZZ`

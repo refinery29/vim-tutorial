@@ -16,7 +16,7 @@ How do I know I'm in this mode?
 * Insert Mode
 This is the mode where vim actually behaves like an editor.
 
-From Normal mode, press <i> to get into Insert mode.
+From Normal mode, press `i` to get into Insert mode.
 
 How do I know I'm in this mode?
 - The bottom of the screen will say "Insert"
@@ -26,9 +26,11 @@ How do I know I'm in this mode?
 * Visual Mode
 "Visual selection mode", see what is being selected.
 
-From Normal mode, press <v> for Visual mode.
+From Normal mode, press `v` for Visual mode.
 
 How do I know I'm in this mode?
 - The bottom of the screen will say "Visual"
+- As the arrow keys are used the selection follows along
+- There are additional commands that can only be used when in this mode
 
-REMEMBER: to quit this file, <esc>ZZ<enter>
+REMEMBER: to quit and save this file, <esc> ZZ <enter>

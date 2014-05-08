@@ -1,11 +1,11 @@
-Help! This file is a mess!
-
-In normal mode we have buffer commands. They are called as such because they can be one or more characters.
+Buffer commands are available from Normal.
+They are called buffer commands because some of them need
+more than one key to be pressed in sequence.
 
 • Remove the spelling mistakes in the following using the `x` command:
-First we make sure we're in normal mode.
-Move the cursor over the offending characters (using `h`,`j`,`k`,`l`)
-Press `x` over each incorrect character.
+  First we make sure we're in normal mode.
+  Move the cursor over the offending characters (using `h`,`j`,`k`,`l`)
+  Press `x` over each incorrect character.
 
 1. I love vi3m s0o muxxxxch!
 2. Aren't theeeese waffles the3 best?
