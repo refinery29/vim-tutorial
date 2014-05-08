@@ -1,0 +1,29 @@
+Welcome to the first file in the vim tutorial!
+
+Try executing all of the following commands as you see them. If you ever get confused or hit another key by mistake, just hit the "esc" key!
+
+- Move down (to this line, for example) using the "j" key
+
+- Move back up using the "k" key
+
+- Move right and left by using the "h" and "l" keys, respectively
+
+- Jump to the top using "gg"
+
+- Jump to the bottom using "G"
+
+- Jump to the end of a line using "$"
+
+- Jump to the beginning of a line using "^"
+
+- Move forward from word to word using the "w" key
+
+- Move backward from word to word using the "b" key
+
+- Move forward from end-of-word to end-of-word using the "e" key
+
+- Now-try-and-move-between-words-using-"b"-and-then-"B" and-see-what-the-difference-is
+
+- Do-the-same-thing-using-"w"-and-"W" as-well-as-"e"-and-"E" and-note-the-difference
+
+- Exit out of this file by typing "ZZ"

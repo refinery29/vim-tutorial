@@ -1,0 +1,34 @@
+Let's talk vim, à la modes!
+
+There are 3 modes that really matter to us.
+
+* Normal Mode (Command mode)
+This mode allows the user to perform buffered commands. Like we were doing in the previous example.
+example: (j,k,b,w,a,g)
+
+From any other mode, press <esc> and you'll get back to Normal mode.
+
+How do I know I'm in this mode?
+- The bottom of the screen will say "Normal"
+- You can't input text normally
+- By default, vim starts in Normal mode, when you start up vim you're in Normal mode
+
+* Insert Mode
+This is the mode where vim actually behaves like an editor.
+
+From Normal mode, press <i> to get into Insert mode.
+
+How do I know I'm in this mode?
+- The bottom of the screen will say "Insert"
+- Thank my deity I CAN TYPE AGAIN!!!
+- Keystrokes will insert characters where I want them to.
+
+* Visual Mode
+"Visual selection mode", see what is being selected.
+
+From Normal mode, press <v> for Visual mode.
+
+How do I know I'm in this mode?
+- The bottom of the screen will say "Visual"
+
+REMEMBER: to quit this file, <esc>ZZ<enter>
